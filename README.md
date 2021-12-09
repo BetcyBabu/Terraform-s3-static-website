@@ -26,9 +26,9 @@ terraform apply
 
 
 
-Here I'm using [Terraform Template Directory Module](https://registry.terraform.io/modules/hashicorp/dir/template/latest) to gathers all of the files under a particular base directory and for_each.
+Here I'm using [Terraform Template Directory Module](https://registry.terraform.io/modules/hashicorp/dir/template/latest) to gathers all of the files under a particular base directory and [for_each](https://www.terraform.io/docs/language/meta-arguments/for_each.html).
 
-Alternativly you can use awscli commands using null_resource provisioner.
+Alternatively, you can use the awscli commands with null_resource provisioner.
 
 ```
 resource "null_resource" "upload_to_s3" {
