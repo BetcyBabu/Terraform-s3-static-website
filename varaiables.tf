@@ -10,6 +10,6 @@ variable "bucket" {
 
 variable "websiteFiles" {
 
-    default = "WesiteFileLocation"
+    default = "WebsiteFileLocation"
 }
 
