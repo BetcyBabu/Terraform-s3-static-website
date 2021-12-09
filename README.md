@@ -21,7 +21,7 @@ terraform apply
 ```
 
 
-> Update the region, AWS access key, secret key in the provider.tf file, project name, s3 bucket name, and website file location on your local system in the variables.tf file.
+> Update the region, AWS access key, secret key in the provider.tf file, project name, s3 bucket name, and the location of the website files in the variables.tf file.
 
 
 
