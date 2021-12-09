@@ -1,1 +1,1 @@
-# Terraform-s3-static-website
+# Hosting a Secure Static Website on AWS S3 using Terraform
