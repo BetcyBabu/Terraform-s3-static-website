@@ -23,10 +23,7 @@ terraform apply
 
 > Update the region, AWS access key, secret key in the provider.tf file, project name, s3 bucket name, and the location of the website files in the variables.tf file.
 
-
-
-
-Here I'm using [Terraform Template Directory Module](https://registry.terraform.io/modules/hashicorp/dir/template/latest) to gathers all of the files under a particular base directory and [for_each](https://www.terraform.io/docs/language/meta-arguments/for_each.html).
+Here I'm using [Terraform Template Directory Module](https://registry.terraform.io/modules/hashicorp/dir/template/latest) to gathers all of the files under a particular base directory and [for_each](https://www.terraform.io/docs/language/meta-arguments/for_each.html)to uploading files to Amazon S3.
 
 Alternatively, you can use the awscli commands with null_resource provisioner.
 
